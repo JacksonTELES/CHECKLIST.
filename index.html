@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Avaliação do Posto de Serviço</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>checklist do Posto de Serviço</h1>
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-header">
+        <h1>Registro de Troca de Turno</h1>
+        <form id="shift-form">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+            </div>
+            <div class="form-group">
+                <label for="position">Posto:</label>
+                <input type="text" id="position" name="position" placeholder="Digite seu posto" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Data:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="shift">Turno:</label>
+                <select id="shift" name="shift" required>
+                    <option value="">Selecione</option>
+                    <option value="06h às 18h">06h às 18h</option>
+                    <option value="18h às 06h">18h às 06h</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="relieved-person">Pessoa Rendida:</label>
+                <input type="text" id="relieved-person" name="relieved-person" placeholder="Digite o nome da pessoa rendida" required>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
+
+        
+
+            <label for="posto" class="form-label">1. Foram identificados portões, portas, cadeados ou janelas abertos?</label>
+            <select id="posto" name="posto" required>
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>
+
+            <label for="equipamentos" class="form-label">2. Alguma alteração nos equipamentos internos, PC, ar condicionado, lampadas, outros?</label>
+            <select id="equipamentos" name="equipamentos" required>
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>
+
+            <label for="iluminacao" class="form-label">3. As condições de limpeza no posto estão adequadas?</label>
+            <select id="iluminacao" name="iluminacao" required>
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>
+
+            <label for="temperatura" class="form-label">4 Houve registro de entrada e saída de sevidores, alunos, professores ou visitantes?</label>
+            <select id="temperatura" name="temperatura" required>
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>
+
+            <label for="treinamento" class="form-label">5. O sistema de iluminação nas areas externas e internas estão em conformidade?</label>
+            <select id="treinamento" name="treinamento" required>
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>
+
+            <label for="comentarios" class="form-label">6. Descreva detalhadamente quaisquer obsevações relevantes que possam afetar a segurança do local ou irregularidades encontradas.</label>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+
+            <button type="submit" class="submit-button">Enviar checklist</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
