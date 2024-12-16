@@ -4,9 +4,10 @@ body {
     background-color: #f4f4f9;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-start; /* Alinha o conteúdo no topo */
+    min-height: 100vh; /* Garanta que a página tenha pelo menos a altura da tela */
     margin: 0;
+    padding: 20px; /* Adiciona espaçamento ao redor do conteúdo */
 }
 
 .form-container {
@@ -15,8 +16,10 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 600px;
+    max-width: 600px; /* Limite o tamanho do container, se necessário */
+    margin-top: 20px; /* Adiciona margem ao topo para evitar corte do cabeçalho */
 }
+
 
 h1 {
     text-align: center;
